@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html
+{
+  postion:relative;
+}
+.primary
+{
+  background-color:#B4654A;
+  color:#B4654A;
+}
+.secondary
+{
+  background-color:#8B635C;
+  color:#8B635C;
+}
+.tertiary
+{
+  background-color:#93A29B;
+  color:#93A29B;
+}
+label{
+  @apply  font-bold
+}
